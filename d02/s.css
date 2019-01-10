@@ -1,0 +1,59 @@
+.loader {
+  background-color: hsl(100, 57%, 55%);
+  height: 100px;
+  width: 200px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(100, 57%, 55%);
+}
+
+.tri1, .tri2, .tri3, .tri4, .tri5 {
+  height: 0;
+  width: 0;
+  border-bottom: 100px solid hsl(54,57%,55%);
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  position: relative;
+  animation: load 0.8s infinite;
+  transform-origin: bottom;
+}
+
+@@keyframes load {
+  50% {
+    transform: scaleY(0);
+  }
+}
+.tri2 {
+  border-bottom: 100px solid hsl(54,67%,55%);
+  bottom: 100px;
+  left: 40px;
+  animation-delay: 0.2s;
+}
+.tri3 {
+  border-bottom: 100px solid hsl(54,77%,55%);
+  bottom: 200px;
+  left: 80px;
+  animation-delay: 0.3s;
+}
+
+.tri4 {
+  border-bottom: 100px solid hsl(54,87%,55%);
+  bottom: 300px;
+  left: 120px;
+  animation-delay: 0.4s;
+}
+.tri5 {
+  border-bottom: 100px solid hsl(54,97%,55%);
+  bottom: 400px;
+  left: 160px;
+  animation-delay: 0.5s;
+}
