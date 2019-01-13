@@ -6,7 +6,7 @@ __git commit -m__
 __git push__  
 
 We have covered basics of CSS animations
-and the use of VIM
+and the use of VIM  
 __i__  
 __w__  
 __q__  
