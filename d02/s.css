@@ -1,5 +1,5 @@
 .loader {
-  background-color: hsl(100, 57%, 55%);
+  background-color: hsl(100, 37%, 25%);
   height: 100px;
   width: 200px;
   margin: auto;
@@ -13,7 +13,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: hsl(100, 57%, 55%);
+  background-color: hsl(100, 37%, 25%);
 }
 
 .tri1, .tri2, .tri3, .tri4, .tri5 {
@@ -23,12 +23,19 @@ body {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   position: relative;
-  animation: load 0.8s infinite;
+	-webkit-animation: load 0.8s infinite;
+  animation:load 0.8s infinite;
   transform-origin: bottom;
 }
 
+@-webkit-keyframes load {
+	50% {
+		transform: scaleY(0);
+	}
+}
+
 @@keyframes load {
-  50% {
+	50%{
     transform: scaleY(0);
   }
 }
