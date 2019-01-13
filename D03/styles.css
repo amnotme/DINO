@@ -1,0 +1,58 @@
+body {
+	background-color: #262626;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.container {
+	height: 450px;
+	width: 450px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #262626;
+}
+
+.crc1, .crc {
+	height: 450px;
+	width: 100px;
+	border: 5px solid black;
+	position: relative;
+	border-radius: 50%;
+	transition: 2.5s linear;
+}
+.crc1 {
+	top: 0;
+	left: 50%;
+}
+
+.crc {
+	bottom: 5px;
+	right: 5px;
+}
+
+.crc1:hover {
+	-webkit-animation: spin 8s infinite linear backwards;
+	animation: spin 8s infinite linear backwards;
+	cursor: pointer;
+}
+
+.crc1:hover .crc {
+	transform: rotate(15deg);
+}
+
+@-webkit-keyframes spin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@@keyframes spin {
+	 100% {
+		 transform: rotate(360deg);
+	 }
+}
