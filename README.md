@@ -1,5 +1,8 @@
-# dinostuff
-this is something that dino doesn't want to do
+# DINO's Core Work  
 
-Apple Alliance is cool.  You should check this out
-https://google.com/apples
+## This is the master repo for DINO's work 
+
++ D00 -> Introductions and expectations. 12/19/2018
++ D01 -> Using GIT. 1/8/2019
++ D02 -> Improving GIT making a repo. Making a fancy animated loading page. 1/9/2019  
++ D03 -> Making a local environment to work with web projects. 1/13/2019
